@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Test :: My New Hugo Site</title>
+
+    
+    <link href="/css/nucleus.css?1563025135" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1563025135" rel="stylesheet">
+    <link href="/css/hybrid.css?1563025135" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1563025135" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1563025135" rel="stylesheet">
+    <link href="/css/auto-complete.css?1563025135" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1563025135" rel="stylesheet">
+    <link href="/css/theme.css?1563025135" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1563025135" rel="stylesheet">
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1563025135"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/post/test/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://leeeft.github.io/">
+  <svg id="grav-logo" style="width:100%; height:100%;" viewBox="0 0 504 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <path d="M235.832,71.564l-7.98,-0.001c-1.213,0.001 -2.197,0.987 -2.197,2.204l0,15.327l-0.158,0.132c-4.696,3.962 -10.634,6.14 -16.719,6.14c-14.356,0 -26.034,-11.68 -26.034,-26.037c0,-14.358 11.678,-26.035 26.034,-26.035c5.582,0 10.919,1.767 15.437,5.113c0.877,0.649 2.093,0.56 2.866,-0.211l5.69,-5.69c0.444,-0.442 0.675,-1.055 0.639,-1.681c-0.034,-0.627 -0.336,-1.206 -0.828,-1.597c-6.76,-5.363 -15.214,-8.314 -23.805,-8.314c-21.18,0 -38.414,17.233 -38.414,38.415c0,21.183 17.234,38.415 38.414,38.415c10.937,0 21.397,-4.705 28.698,-12.914c0.358,-0.403 0.556,-0.921 0.556,-1.46l0,-19.603c0,-1.217 -0.985,-2.203 -2.2,-2.203"
+      style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M502.794,34.445c-0.408,-0.616 -1.1,-0.989 -1.838,-0.989l-8.684,0c-0.879,0 -1.673,0.522 -2.022,1.329l-24.483,56.839l-24.92,-56.852c-0.352,-0.799 -1.142,-1.316 -2.012,-1.316l-8.713,0c-0.744,0 -1.44,0.373 -1.843,0.995c-0.408,0.623 -0.476,1.408 -0.174,2.09l30.186,68.858c0.352,0.799 1.143,1.317 2.017,1.317l10.992,0c0.879,0 1.673,-0.527 2.021,-1.329l29.655,-68.861c0.289,-0.68 0.222,-1.461 -0.182,-2.081"
+      style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M388.683,34.772c-0.353,-0.798 -1.142,-1.316 -2.017,-1.316l-10.988,0c-0.879,0 -1.673,0.522 -2.021,1.329l-29.655,68.861c-0.294,0.675 -0.226,1.46 0.182,2.077c0.407,0.619 1.096,0.993 1.838,0.993l8.684,0c0.879,0 1.673,-0.526 2.022,-1.329l24.478,-56.842l24.92,56.854c0.353,0.798 1.143,1.317 2.013,1.317l8.717,0c0.744,0 1.44,-0.374 1.843,-0.993c0.408,-0.624 0.471,-1.41 0.174,-2.094l-30.19,-68.857Z"
+      style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M309.196,81.525l0.476,-0.229c8.675,-4.191 14.279,-13.087 14.279,-22.667c0,-13.881 -11.295,-25.174 -25.176,-25.174l-31.863,0c-1.214,0 -2.199,0.988 -2.199,2.202l0,68.855c0,1.219 0.985,2.204 2.199,2.204l7.979,0c1.214,0 2.2,-0.985 2.2,-2.204l0,-58.679l21.684,0c7.059,0 12.799,5.739 12.799,12.796c0,5.885 -3.996,10.989 -9.728,12.408c-1.032,0.261 -2.064,0.393 -3.071,0.393l-7.977,0c-0.829,0 -1.585,0.467 -1.959,1.205c-0.378,0.74 -0.305,1.625 0.187,2.296l22.62,30.884c0.412,0.566 1.07,0.901 1.771,0.901l9.915,0c0.827,0 1.587,-0.467 1.96,-1.207c0.378,-0.742 0.302,-1.629 -0.186,-2.296l-15.91,-21.688Z"
+      style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M107.191,80.969c-7.255,-4.794 -11.4,-8.845 -15.011,-16.109c-2.47,4.977 -8.236,12.376 -17.962,18.198c-4.856,15.106 -27.954,44.015 -35.43,39.916c-2.213,-1.212 -2.633,-2.808 -2.133,-4.456c0.536,-4.129 9.078,-13.62 9.078,-13.62c0,0 0.18,1.992 2.913,6.187c-3.609,-11.205 5.965,-25.031 8.5,-29.738c3.985,-1.269 4.274,-6.387 4.274,-6.387c0.255,-7.909 -3.278,-13.635 -6.701,-17.059c2.459,3.002 3.255,7.539 3.372,11.694l0,0.023c0.012,0.469 0.012,0.93 0.011,1.39c-0.117,3.439 -1.157,8.19 -3.383,8.19l0.006,0.03c-2.289,-0.098 -5.115,0.391 -7.639,1.18l-5.582,1.334c0,0 2.977,-0.136 4.584,1.252c-1.79,2.915 -5.769,6.533 -10.206,8.588c-6.457,2.995 -8.312,-2.964 -5.034,-6.838c0.805,-0.946 1.618,-1.745 2.387,-2.399c-0.495,-0.513 -0.807,-1.198 -0.889,-2.068c-0.001,-0.005 -0.004,-0.009 -0.005,-0.013c-0.45,-1.977 -0.202,-4.543 2.596,-8.623c0.551,-0.863 1.214,-1.748 2.007,-2.647c0.025,-0.031 0.046,-0.059 0.072,-0.089c0.034,-0.042 0.072,-0.08 0.108,-0.121c0.02,-0.023 0.039,-0.045 0.059,-0.068c0.2,-0.228 0.413,-0.45 0.639,-0.663c3.334,-3.414 8.599,-6.966 16.897,-10.152c9.675,-14.223 13.219,-16.89 13.219,-16.89c1.071,-1.096 2.943,-2.458 3.632,-2.805c-5.053,-8.781 -6.074,-21.158 -4.75,-24.493c-0.107,0.18 -0.206,0.365 -0.287,0.556c0.49,-1.143 0.819,-1.509 1.328,-2.111c1.381,-1.632 6.058,-2.488 7.737,0.971c0.895,1.844 1.063,4.232 1.034,6.023c-3.704,-0.193 -7.063,4.036 -7.063,4.036c0,0 3.067,-1.448 6.879,-1.473c0,0 1.015,0.883 2.283,2.542c-1.712,3.213 -4.524,10.021 -2.488,17.168c0.338,1.408 0.849,2.619 1.483,3.648c0.024,0.045 0.044,0.089 0.069,0.135c0.051,0.066 0.096,0.122 0.144,0.183c3.368,5.072 9.542,5.665 9.542,5.665c-2.906,-1.45 -5.274,-3.76 -6.816,-6.56c-0.8,-1.498 -1.291,-2.762 -1.592,-3.761c-1.636,-6.313 0.771,-9.999 2.149,-12.471c3.17,-4.917 8.944,-7.893 15.151,-7.185c8.712,0.995 14.968,8.862 13.973,17.571c-0.608,5.321 -3.781,9.723 -8.142,12.117c1.049,2.839 -0.073,6.28 -0.073,6.28c2.642,3.323 2.758,5.238 2.667,7.017c-3.357,-0.565 -6.618,1.701 -6.618,1.701c0,0 6.476,-1.546 10.238,1.81c2.446,2.631 4.078,5.009 5.051,6.766c1.393,2.505 7.859,2.683 7.123,7.188c-0.737,4.499 -5.669,4.542 -13.401,-0.56M69.571,0c-38.424,0 -69.571,31.148 -69.571,69.567c0,38.422 31.147,69.573 69.571,69.573c38.42,0 69.568,-31.151 69.568,-69.573c0,-38.42 -31.148,-69.567 -69.568,-69.567"
+      style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M73.796,51.693c0.813,-0.814 0.813,-2.134 0,-2.947c-0.815,-0.814 -2.133,-0.814 -2.947,0c-0.815,0.813 -0.815,2.133 0,2.947c0.814,0.813 2.132,0.813 2.947,0" style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M66.445,53.149c-0.814,0.813 -0.814,2.133 0,2.947c0.813,0.814 2.133,0.814 2.947,0c0.813,-0.814 0.813,-2.134 0,-2.947c-0.814,-0.813 -2.134,-0.813 -2.947,0" style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M79.231,54.233c-1.274,-1.274 -3.339,-1.272 -4.611,0l-2.713,2.712c-1.274,1.275 -1.274,3.339 0,4.612l2.978,2.978c1.274,1.275 3.338,1.274 4.611,0l2.712,-2.712c1.274,-1.274 1.274,-3.339 0,-4.612l-2.977,-2.978Z" style="fill:#000;fill-rule:nonzero;"></path>
+    <path d="M95.759,41.445c-2.151,-2.578 1.869,-7.257 4.391,-4.463c4.645,5.148 -2.237,7.041 -4.391,4.463M105.004,44.132c3.442,-6.553 -1.427,-10.381 -4.773,-13.523c-5.36,-5.039 -10.706,-7.217 -16.811,-0.241c-6.102,6.977 -2.226,15.068 3.356,19.061c5.584,3.994 14.782,1.255 18.228,-5.297"
+      style="fill:#000;fill-rule:nonzero;"></path>
+  </svg>
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1563025135"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1563025135"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/leeeft.github.io\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1563025135"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/post/" title="Posts" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/post/">
+          Posts
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/post/test/" title="Test" class="dd-item active">
+        <a href="/post/test/">
+        Test
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>My New Hugo Site</a> > <a href='/post/'>Posts</a> > Test
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#overview">Overview</a>
+<ul>
+<li>
+<ul>
+<li><a href="#supported-architectures">Supported Architectures</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#choose-how-to-install">Choose How to Install</a>
+<ul>
+<li><a href="#install-hugo-as-your-site-generator-binary-install">Install Hugo as Your Site Generator (Binary Install)</a></li>
+<li><a href="#build-and-install-the-binaries-from-source-advanced-install">Build and Install the Binaries from Source (Advanced Install)</a>
+<ul>
+<li><a href="#prerequisite-tools">Prerequisite Tools</a></li>
+<li><a href="#fetch-from-github">Fetch from GitHub</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#the-hugo-documentation">The Hugo Documentation</a></li>
+<li><a href="#contributing-to-hugo">Contributing to Hugo</a>
+<ul>
+<li><a href="#asking-support-questions">Asking Support Questions</a></li>
+<li><a href="#reporting-issues">Reporting Issues</a></li>
+<li><a href="#submitting-patches">Submitting Patches</a></li>
+</ul></li>
+<li><a href="#dependencies">Dependencies</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Test
+            </h1>
+          
+
+        
+
+
+
+
+
+<p><img src="https://raw.githubusercontent.com/gohugoio/hugoDocs/master/static/img/hugo-logo.png" alt="Hugo" /></p>
+
+<p>A Fast and Flexible Static Site Generator built with love by <a href="https://github.com/bep">bep</a>, <a href="http://spf13.com/">spf13</a> and <a href="https://github.com/gohugoio/hugo/graphs/contributors">friends</a> in <a href="https://golang.org/">Go</a>.</p>
+
+<p><a href="https://gohugo.io">Website</a> |
+<a href="https://discourse.gohugo.io">Forum</a> |
+<a href="https://gohugo.io/getting-started/">Documentation</a> |
+<a href="https://gohugo.io/getting-started/installing/">Installation Guide</a> |
+<a href="CONTRIBUTING.md">Contribution Guide</a> |
+<a href="https://twitter.com/gohugoio">Twitter</a></p>
+
+<p><a href="https://godoc.org/github.com/gohugoio/hugo"><img src="https://godoc.org/github.com/gohugoio/hugo?status.svg" alt="GoDoc" /></a>
+<a href="https://travis-ci.org/gohugoio/hugo"><img src="https://api.travis-ci.org/gohugoio/hugo.svg?branch=master&amp;label=Windows+and+Linux+and+macOS+build" alt="Linux and macOS Build Status" title="Windows, Linux and macOS Build Status" /></a>
+<a href="https://goreportcard.com/report/github.com/gohugoio/hugo"><img src="https://goreportcard.com/badge/github.com/gohugoio/hugo" alt="Go Report Card" /></a></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>Hugo is a static HTML and CSS website generator written in <a href="https://golang.org/">Go</a>.
+It is optimized for speed, ease of use, and configurability.
+Hugo takes a directory with content and templates and renders them into a full HTML website.</p>
+
+<p>Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
+This works well for shared hosts and other systems where you donâ€™t have a privileged account.</p>
+
+<p>Hugo renders a typical website of moderate size in a fraction of a second.
+A good rule of thumb is that each piece of content renders in around 1 millisecond.</p>
+
+<p>Hugo is designed to work well for any kind of website including blogs, tumbles, and docs.</p>
+
+<h4 id="supported-architectures">Supported Architectures</h4>
+
+<p>Currently, we provide pre-built Hugo binaries for Windows, Linux, FreeBSD, NetBSD, macOS (Darwin), and <a href="https://gist.github.com/bep/a0d8a26cf6b4f8bc992729b8e50b480b">Android</a> for x64, i386 and ARM architectures.</p>
+
+<p>Hugo may also be compiled from source wherever the Go compiler tool chain can run, e.g. for other operating systems including DragonFly BSD, OpenBSD, Plan 9, and Solaris.</p>
+
+<p><strong>Complete documentation is available at <a href="https://gohugo.io/getting-started/">Hugo Documentation</a>.</strong></p>
+
+<h2 id="choose-how-to-install">Choose How to Install</h2>
+
+<p>If you want to use Hugo as your site generator, simply install the Hugo binaries.
+The Hugo binaries have no external dependencies.</p>
+
+<p>To contribute to the Hugo source code or documentation, you should <a href="https://github.com/gohugoio/hugo#fork-destination-box">fork the Hugo GitHub project</a> and clone it to your local machine.</p>
+
+<p>Finally, you can install the Hugo source code with <code>go</code>, build the binaries yourself, and run Hugo that way.
+Building the binaries is an easy task for an experienced <code>go</code> getter.</p>
+
+<h3 id="install-hugo-as-your-site-generator-binary-install">Install Hugo as Your Site Generator (Binary Install)</h3>
+
+<p>Use the <a href="https://gohugo.io/getting-started/installing/">installation instructions in the Hugo documentation</a>.</p>
+
+<h3 id="build-and-install-the-binaries-from-source-advanced-install">Build and Install the Binaries from Source (Advanced Install)</h3>
+
+<h4 id="prerequisite-tools">Prerequisite Tools</h4>
+
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://golang.org/dl/">Go (at least Go 1.11)</a></li>
+</ul>
+
+<h4 id="fetch-from-github">Fetch from GitHub</h4>
+
+<p>Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of <code>GOPATH</code>, as in the following example:</p>
+
+<pre><code class="language-bash">mkdir $HOME/src
+cd $HOME/src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install
+</code></pre>
+
+<p><strong>If you are a Windows user, substitute the <code>$HOME</code> environment variable above with <code>%USERPROFILE%</code>.</strong></p>
+
+<h2 id="the-hugo-documentation">The Hugo Documentation</h2>
+
+<p>The Hugo documentation now lives in its own repository, see <a href="https://github.com/gohugoio/hugoDocs">https://github.com/gohugoio/hugoDocs</a>. But we do keep a version of that documentation as a <code>git subtree</code> in this repository. To build the sub folder <code>/docs</code> as a Hugo site, you need to clone this repo:</p>
+
+<pre><code class="language-bash">git clone git@github.com:gohugoio/hugo.git
+</code></pre>
+
+<h2 id="contributing-to-hugo">Contributing to Hugo</h2>
+
+<p>For a complete guide to contributing to Hugo, see the <a href="CONTRIBUTING.md">Contribution Guide</a>.</p>
+
+<p>We welcome contributions to Hugo of any kind including documentation, themes,
+organization, tutorials, blog posts, bug reports, issues, feature requests,
+feature implementations, pull requests, answering questions on the forum,
+helping to manage issues, etc.</p>
+
+<p>The Hugo community and maintainers are <a href="https://github.com/gohugoio/hugo/pulse/monthly">very active</a> and helpful, and the project benefits greatly from this activity.</p>
+
+<h3 id="asking-support-questions">Asking Support Questions</h3>
+
+<p>We have an active <a href="https://discourse.gohugo.io">discussion forum</a> where users and developers can ask questions.
+Please don&rsquo;t use the GitHub issue tracker to ask questions.</p>
+
+<h3 id="reporting-issues">Reporting Issues</h3>
+
+<p>If you believe you have found a defect in Hugo or its documentation, use
+the GitHub issue tracker to report the problem to the Hugo maintainers.
+If you&rsquo;re not sure if it&rsquo;s a bug or not, start by asking in the <a href="https://discourse.gohugo.io">discussion forum</a>.
+When reporting the issue, please provide the version of Hugo in use (<code>hugo version</code>).</p>
+
+<h3 id="submitting-patches">Submitting Patches</h3>
+
+<p>The Hugo project welcomes all contributors and contributions regardless of skill or experience level.
+If you are interested in helping with the project, we will help you with your contribution.
+Hugo is a very active project with many contributions happening daily.</p>
+
+<p>Because we want to create the best possible product for our users and the best contribution experience for our developers,
+we have a set of guidelines which ensure that all contributions are acceptable.
+The guidelines are not intended as a filter or barrier to participation.
+If you are unfamiliar with the contribution process, the Hugo team will help you and teach you how to bring your contribution in accordance with the guidelines.</p>
+
+<p>For a complete guide to contributing code to Hugo, see the <a href="CONTRIBUTING.md">Contribution Guide</a>.</p>
+
+<p><a href="https://github.com/igrigorik/ga-beacon"><img src="https://ga-beacon.appspot.com/UA-7131036-6/hugo/readme" alt="Analytics" /></a></p>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p>Hugo stands on the shoulder of many great open source libraries, in lexical order:</p>
+
+<p>| Dependency  | License |
+ | :&mdash;&mdash;&mdash;&mdash;- | :&mdash;&mdash;&mdash;&mdash;- |
+ | <a href="https://github.com/BurntSushi/locker">github.com/BurntSushi/locker</a> | The Unlicense |
+ | <a href="https://github.com/BurntSushi/toml">github.com/BurntSushi/toml</a> | MIT License |
+ | <a href="https://github.com/PuerkitoBio/purell">github.com/PuerkitoBio/purell</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://github.com/PuerkitoBio/urlesc">github.com/PuerkitoBio/urlesc</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://github.com/alecthomas/chroma">github.com/alecthomas/chroma</a> |  MIT License |
+ | <a href="https://github.com/bep/debounce">github.com/bep/debounce</a> |    MIT License |
+ | <a href="https://github.com/bep/gitmap">github.com/bep/gitmap</a> |  MIT License |
+ | <a href="https://github.com/bep/go-tocss">github.com/bep/go-tocss</a> | MIT License |
+ | <a href="https://github.com/chaseadamsio/goorgeous">github.com/chaseadamsio/goorgeous</a> | MIT License |
+ | <a href="https://github.com/cpuguy83/go-md2man">github.com/cpuguy83/go-md2man</a> | MIT License |
+ | <a href="https://github.com/danwakefield/fnmatch">github.com/danwakefield/fnmatch</a> | BSD 2-Clause &ldquo;Simplified&rdquo; License |
+ | <a href="https://github.com/disintegration/imaging">github.com/disintegration/imaging</a> |  MIT License |
+ | <a href="https://github.com/dlclark/regexp2">github.com/dlclark/regexp2</a> | MIT License |
+ | <a href="https://github.com/eknkc/amber">github.com/eknkc/amber</a> | MIT License |
+ | <a href="https://github.com/fsnotify/fsnotify">github.com/fsnotify/fsnotify</a> |  BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://github.com/gobwas/glob">github.com/gobwas/glob</a> | MIT License |
+ | <a href="https://github.com/gorilla/websocket">github.com/gorilla/websocket</a> |  BSD 2-Clause &ldquo;Simplified&rdquo; License |
+ | <a href="https://github.com/hashicorp/go-immutable-radix">github.com/hashicorp/go-immutable-radix</a> | Mozilla Public License 2.0 |
+ | <a href="https://github.com/hashicorp/golang-lru">github.com/hashicorp/golang-lru</a> | Mozilla Public License 2.0 |
+ | <a href="https://github.com/hashicorp/hcl">github.com/hashicorp/hcl</a> |   Mozilla Public License 2.0 |
+ | <a href="https://github.com/jdkato/prose">github.com/jdkato/prose</a> |    MIT License |
+ | <a href="https://github.com/kyokomi/emoji">github.com/kyokomi/emoji</a> |   MIT License |
+ | <a href="https://github.com/magiconair/properties">github.com/magiconair/properties</a> | BSD 2-Clause &ldquo;Simplified&rdquo; License |
+ | <a href="https://github.com/markbates/inflect">github.com/markbates/inflect</a> |  MIT License |
+ | <a href="https://github.com/mattn/go-isatty">github.com/mattn/go-isatty</a> | MIT License |
+ | <a href="https://github.com/mattn/go-runewidth">github.com/mattn/go-runewidth</a> | MIT License |
+ | <a href="https://github.com/miekg/mmark">github.com/miekg/mmark</a> | Simplified BSD License |
+ | <a href="https://github.com/mitchellh/hashstructure">github.com/mitchellh/hashstructure</a> | MIT License |
+ | <a href="https://github.com/mitchellh/mapstructure">github.com/mitchellh/mapstructure</a> | MIT License |
+ | <a href="https://github.com/muesli/smartcrop">github.com/muesli/smartcrop</a> |   MIT License |
+ | <a href="https://github.com/nicksnyder/go-i18n">github.com/nicksnyder/go-i18n</a> | MIT License |
+ | <a href="https://github.com/olekukonko/tablewriter">github.com/olekukonko/tablewriter</a> | MIT License |
+ | <a href="https://github.com/pelletier/go-toml">github.com/pelletier/go-toml</a> |  MIT License |
+ | <a href="https://github.com/pkg/errors">github.com/pkg/errors</a> |  BSD 2-Clause &ldquo;Simplified&rdquo; License |
+ | <a href="https://github.com/russross/blackfriday">github.com/russross/blackfriday</a>  | Simplified BSD License |
+ | <a href="https://github.com/shurcooL/sanitized_anchor_name">github.com/shurcooL/sanitized_anchor_name</a> | MIT License |
+ | <a href="https://github.com/spf13/afero">github.com/spf13/afero</a> | Apache License 2.0 |
+ | <a href="https://github.com/spf13/cast">github.com/spf13/cast</a> |  MIT License |
+ | <a href="https://github.com/spf13/cobra">github.com/spf13/cobra</a> | Apache License 2.0 |
+ | <a href="https://github.com/spf13/fsync">github.com/spf13/fsync</a> | MIT License |
+ | <a href="https://github.com/spf13/jwalterweatherman">github.com/spf13/jwalterweatherman</a> | MIT License |
+ | <a href="https://github.com/spf13/nitro">github.com/spf13/nitro</a> | Apache License 2.0 |
+ | <a href="https://github.com/spf13/pflag">github.com/spf13/pflag</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://github.com/spf13/viper">github.com/spf13/viper</a> | MIT License |
+ | <a href="https://github.com/tdewolff/minify">github.com/tdewolff/minify</a> | MIT License |
+ | <a href="https://github.com/tdewolff/parse">github.com/tdewolff/parse</a> | MIT License |
+ | <a href="https://github.com/wellington/go-libsass">github.com/wellington/go-libsass</a> | Apache License 2.0 |
+ | <a href="https://github.com/yosssi/ace">github.com/yosssi/ace</a> |  MIT License |
+ | <a href="https://golang.org/x/image">golang.org/x/image</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://golang.org/x/net">golang.org/x/net</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://golang.org/x/sync">golang.org/x/sync</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://golang.org/x/sys">golang.org/x/sys</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License |
+ | <a href="https://golang.org/x/text">golang.org/x/text</a> | BSD 3-Clause &ldquo;New&rdquo; or &ldquo;Revised&rdquo; License
+ | <a href="https://gopkg.in/yaml.v2">gopkg.in/yaml.v2</a> |    Apache License 2.0 |</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/post/" title="Posts"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1563025135"></script>
+    <script src="/js/perfect-scrollbar.min.js?1563025135"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1563025135"></script>
+    <script src="/js/jquery.sticky.js?1563025135"></script>
+    <script src="/js/featherlight.min.js?1563025135"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1563025135"></script>
+    <script src="/js/highlight.pack.js?1563025135"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1563025135"></script>
+    <script src="/js/learn.js?1563025135"></script>
+    <script src="/js/hugo-learn.js?1563025135"></script>
+
+    <link href="/mermaid/mermaid.css?1563025135" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1563025135"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>
+
